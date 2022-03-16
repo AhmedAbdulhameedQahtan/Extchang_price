@@ -18,6 +18,7 @@ class _FirstPageState extends State<FirstPage> {
            Center(
              child: Text("hello"),
            ),
+           Row(children: [Text("hello")],)
          ],
       ),
     );//End Container
