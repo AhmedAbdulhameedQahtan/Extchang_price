@@ -16,7 +16,10 @@ class _FirstPageState extends State<FirstPage> {
       child: Column(
         children: [
           Row(
-            children: [Text("hello")],
+            children: [
+              Text("hello"),
+              Text("Welcome"),
+            ],
           )
         ],
       ),
