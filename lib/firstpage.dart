@@ -11,8 +11,11 @@ class _FirstPageState extends State<FirstPage> {
   Widget build(BuildContext context) {
     // this opject for width & height
     Size size = MediaQuery.of(context).size;
-    return Container(
-      color: Colors.yellow,
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("First Page"),
+      ),
+      // color: Colors.yellow,
     );//End Container
   }//End build method
 }//End class
