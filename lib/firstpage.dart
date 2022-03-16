@@ -13,14 +13,6 @@ class _FirstPageState extends State<FirstPage> {
     Size size = MediaQuery.of(context).size;
     return Container(
       color: Colors.yellow,
-      child: Column(
-         children: [
-           Center(
-             child: Text("hello"),
-           ),
-           Row(children: [Text("hello")],)
-         ],
-      ),
     );//End Container
   }//End build method
 }//End class
